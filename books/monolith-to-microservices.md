@@ -1,4 +1,10 @@
-# [Monolith to Microservices](https://www.oreilly.com/library/view/monolith-to-microservices/9781492047834/)
++++
+title = "Monolith to Microservices"
+[extra]
+author = "Sam Newman"
+year = 2019
+url = "https://www.oreilly.com/library/view/monolith-to-microservices/9781492047834/"
++++
 
 ## Just Enough Microservices
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css" />
+  <style>
+    h1, h2, h3, h4, h5, h6 { border: 0; margin: 0; padding: 0; }
+    h1 { padding: 1.6rem 0 1.4rem 0; font-size: 1.802em; line-height: 1.2; font-weight: 700; }
+    h2 { padding: 1.6rem 0 1.2rem; font-size: 1.602em; line-height: 1.2; font-weight: 600; }
+    h3 { padding: 1.5rem 0 1rem 0; font-size: 1.424em; line-height: 1.3; font-weight: 600; }
+    h4 { padding: 1.2rem 0 0.8rem 0; font-size: 1.266em; line-height: 1.4; font-weight: 600; }
+    h5 { padding: 1rem 0 0.6rem 0; font-size: 1.125em; line-height: 1.5; font-weight: 600; }
+    h5 { padding: 0.8rem 0 0.4rem 0; font-size: 1em; line-height: 1.5; font-weight: 600; }
+    strong { font-weight: 600; }
+    header { display: flex; align-items: center; gap: 1rem; }
+    blockquote { padding: 1rem; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>📝 Notes</h1>
+  <nav>
+    <a href="{{ get_url(path="/") }}">Listing</a> / <a href="https://eddmann.com">Blog</a>
+  </nav>
+</header>
+{% block content %} {% endblock %}
+</body>
+</html>

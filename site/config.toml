@@ -1,0 +1,9 @@
+base_url = "https://notes.eddmann.com"
+output_dir = "public"
+compile_sass = false
+build_search_index = false
+minify_html = true
+
+[markdown]
+highlight_code = false
+external_links_target_blank = true

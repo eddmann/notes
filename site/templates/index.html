@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+<p>Writing notes on content that I have just read/watched helps me digest the material; it also provides me with a resource to reference in the future (<a href="https://keyvanakbary.github.io/learning-notes/" target="_blank">inspiration</a>).
+
+<h2>Books</h2>
+
+<ul>
+  {% set books = get_section(path="books/_index.md") %}
+  {% for page in books.pages %}
+  <li>
+    <a href="{{ page.permalink | safe }}">{{ page.title }}</a> by <strong>{{ page.extra.author }}</strong>, {{ page.extra.year }}
+  </li>
+  {% endfor %}
+</ul>
+
+{% endblock content %}
